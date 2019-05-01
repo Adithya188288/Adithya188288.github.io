@@ -1,0 +1,33 @@
+/* Media Query of screen sizes with width less than or equal 910px in landscape mode */
+#showcase .showcase-content h1 {
+  font-size: 3rem;
+}
+
+#showcase .showcase-content p {
+  font-size: 1.1rem;
+}
+
+/* Subscribe Now  */
+#subscribe {
+  padding: 1rem;
+}
+
+#subscribe h2 {
+  font-size: 1.5rem;
+}
+
+#subscribe p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 530px) {
+  /* Media Query of screen sizes with width less than or equal 910px in landscape mode */
+  #showcase .showcase-content h1 {
+    font-size: 2rem;
+  }
+
+  /* Subscribe Now  */
+  #subscribe {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Entra - Home</title>
+    <!-- Using a Custom font - Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- Mailchimp form CSS file -->
+    <link
+        href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css"
+        rel="stylesheet"
+        type="text/css"/>
+        <!-- Our Custom Stylesheet with media queries for both potrait and landscape -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="responsive_potrait.css">
+    <link rel="stylesheet" media="only screen and (orientation: landscape) and (max-width:910px)" href="responsive_landscape.css">
+  </head>
+
+  <!-- Primary color - orangered -->
+  <!-- Secondary color - #fff -->
+  <!-- Light color - #f4f4f4 -->
+  <!-- Dark color - #333 -->
+  <!-- Check the style.css file for utility classes -->
+
+  <!-- Main content -->
+  <body>
+    <!-- Main-nav is a flex container -->
+    <nav id="main-nav" class="bg-secondary">
+      <div class="logo uppercase"><span class="text-primary">EN</span>TRA</div>
+      <div class="nav-links uppercase">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Subscribe</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase section  -->
+    <!-- Showcase-content is a flex container-->
+    <!-- Header has a before pseudo selector which will insert the overlay while the DOM is created -->
+    <header id="showcase">
+      <div class="showcase-content text-secondary">
+        <h1 class="l-heading">
+          The Most Affordable
+          <span class="text-primary">Vintage Electric Cars</span> In The World.
+        </h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae,
+          voluptatem cupiditate nulla quasi!
+        </p>
+      </div>
+    </header>
+
+
+    <!-- Subscribe section -->
+    <!-- Subscribe is a flex container -->
+    <section id="subscribe" class="bg-light-color text-center">
+      <h2 class="m-heading">Subscribe <span class="text-primary">Now</span></h2>
+      <p class="lead">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas,
+        asperiores!
+      </p>
+      <!-- <input class="btn-primary" type="button" value="Subscribe Now" /> -->
+      <div class="mailchimp-form text-center">
+      <!-- Begin Mailchimp Signup Form -->
+      <div id="mc_embed_signup">
+        <form
+          action="https://facebook.us17.list-manage.com/subscribe/post?u=a7f3263c92b73418a507bd583&amp;id=9047a86e5c"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          target="_blank"
+          novalidate
+        >
+
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input
+                type="text"
+                name="b_a7f3263c92b73418a507bd583_9047a86e5c"
+                tabindex="-1"
+                value=""
+              />
+            </div>
+            <div class="clear">
+              <input 
+                type="submit"
+                value="Subscribe Now"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                class="btn-primary"
+              />
+            </div>
+          </div>
+        </form>
+    </div>
+
+      <!--End mc_embed_signup-->
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-secondary text-center">
+      <p>&copy; Copyright 2019 - All Right Reserved</p>
+      <!-- Image credit HTML -->
+      <a
+        style='background-color:white;color:orangered;text-decoration:none;text-align:center;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;font-size:14px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px'
+        href="https://unsplash.com/@catiall?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Download free do whatever you want high-resolution photos from Ciel Cheng"
+        ><span style="display:inline-block;padding:2px 3px"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+            viewBox="0 0 32 32"
+          >
+            <title>unsplash-logo</title>
+            <path
+              d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"
+            ></path></svg></span
+        ><span style="display:inline-block;padding:2px 3px"
+          >Image Credit - Ciel Cheng</span
+        ></a
+      >
+    </footer>
+  </body>
+</html>

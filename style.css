@@ -1,0 +1,188 @@
+/* Utility classes */
+
+/* Css Reset */
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.bg-primary {
+  background-color: orangered;
+}
+
+.bg-secondary {
+  background-color: #fff;
+}
+
+.bg-light-color {
+  background-color: #f4f4f4;
+}
+
+.text-primary {
+  color: orangered;
+}
+
+.text-secondary {
+  color: #fff;
+}
+
+.l-heading {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.m-heading {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* Utility classes ends*/
+
+/* Main Nav Css Code */
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 9rem;
+  color: #333;
+}
+
+#main-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#main-nav ul li {
+  margin: 1rem;
+  font-size: 1rem;
+  border-bottom: 3px solid transparent;
+  transition: border 0.3s ease-in-out;
+}
+
+#main-nav ul li:hover {
+  cursor: pointer;
+  border-bottom-color: orangered;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Showcase section CSS Code */
+
+#showcase {
+  position: relative;
+  background: url(cars.jpg) no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* overlay */
+/* Content: '' is mandatory for an pseudo element*/
+#showcase::before {
+  content: "";
+  position: absolute;
+  background-color: #333;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+}
+
+#showcase .showcase-content {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+/* Subscribe CSS element */
+
+/* Subscribe Now  */
+#subscribe {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  width: 100%;
+  height: auto;
+}
+
+#subscribe h2 {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+
+#subscribe p {
+  margin-bottom: 1.5rem;
+}
+
+/* Form Style */
+#mc_embed_signup {
+  font: 14px Helvetica, Arial, sans-serif;
+}
+/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+/* #mc_embed_signup form will center the form element. I am still working to understand how inline-flex works */
+#mc_embed_signup form {
+  display: inline-flex;
+}
+
+/* Footer */
+#main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
