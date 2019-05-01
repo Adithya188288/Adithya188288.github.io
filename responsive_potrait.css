@@ -1,3 +1,4 @@
+/* Media Query of screen sizes with width less than or equal 768px */
 /* Nav menu with logo and links */
 #main-nav {
   display: flex;
@@ -10,7 +11,6 @@
   justify-content: center;
 }
 
-/* Media Query of screen sizes with width less than or equal 550px */
 p {
   font-size: 14px;
 }
@@ -36,6 +36,7 @@ p {
   font-size: 1.1rem;
 }
 
+/* Media Query of screen sizes with width less than or equal 630px */
 @media (max-width: 630px) {
   /* Footer */
   #main-footer {

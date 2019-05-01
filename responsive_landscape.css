@@ -20,8 +20,8 @@
   font-size: 1.1rem;
 }
 
+/* Media Query of screen sizes with width less than or equal 530px in landscape mode */
 @media (max-width: 530px) {
-  /* Media Query of screen sizes with width less than or equal 910px in landscape mode */
   #showcase .showcase-content h1 {
     font-size: 2rem;
   }
